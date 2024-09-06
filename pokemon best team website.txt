@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the best competitive Pokémon Showdown teams across various tiers like OU, Ubers, and more.">
+    <title>Best Pokémon Showdown Teams</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .team {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 30%;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        }
+        .team img {
+            max-width: 100%;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Best Pokémon Showdown Teams</h1>
+    <p>Explore the top competitive teams for different tiers!</p>
+</header>
+
+<nav>
+    <a href="#ou">OU Teams</a>
+    <a href="#ubers">Ubers Teams</a>
+    <a href="#trick-room">Trick Room</a>
+</nav>
+
+<section id="ou">
+    <h2>Best OU Teams</h2>
+    <div class="team-container">
+        <div class="team">
+            <h3>Balanced Core Team</h3>
+            <img src="https://via.placeholder.com/150" alt="OU Pokémon Team">
+            <p>This team focuses on a balanced approach, using strong sweepers like Garchomp alongside defensive options like Toxapex and Corviknight.</p>
+        </div>
+        <div class="team">
+            <h3>Offensive Hyper Aggro</h3>
+            <img src="https://via.placeholder.com/150" alt="OU Pokémon Team">
+            <p>An all-out offensive team with high-speed attackers like Dragapult and Choice Scarf Kartana for quick and decisive wins.</p>
+        </div>
+    </div>
+</section>
+
+<section id="ubers">
+    <h2>Best Ubers Teams</h2>
+    <div class="team-container">
+        <div class="team">
+            <h3>Zacian-Crowned Offense</h3>
+            <img src="https://via.placeholder.com/150" alt="Ubers Pokémon Team">
+            <p>This team revolves around Zacian-Crowned as the main sweeper, supported by bulky Pokémon like Eternatus and Necrozma-DM for coverage.</p>
+        </div>
+        <div class="team">
+            <h3>Kyogre Rain Team</h3>
+            <img src="https://via.placeholder.com/150" alt="Ubers Pokémon Team">
+            <p>A rain-based team using Kyogre to boost Water-type attacks while teammates like Palkia benefit from the rain-enhanced damage.</p>
+        </div>
+    </div>
+</section>
+
+<section id="trick-room">
+    <h2>Best Trick Room Teams</h2>
+    <div class="team-container">
+        <div class="team">
+            <h3>Slow Powerhouse</h3>
+            <img src="https://via.placeholder.com/150" alt="Trick Room Pokémon Team">
+            <p>This team features slow but powerful Pokémon like Rhyperior and Reuniclus, taking advantage of Trick Room to out-speed the opponent.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Pokémon Showdown Mastery</p>
+</footer>
+
+</body>
+</html>
